@@ -15,7 +15,7 @@
 			<a href="#contact">Contact</a>
 			<a href="sign-up.html">Register</a>
 			<div class="login-container">
-				<form action="login.php">
+				<form action="login.php" method="POST">
 					<input type="email" placeholder="Email" name="email">
 					<input type="password" placeholder="Password" name="psw">
 					<button type="submit">Login</button>
